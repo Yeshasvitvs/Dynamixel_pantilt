@@ -1,0 +1,19 @@
+<launch>
+
+
+
+
+<!--Teleop Node-->
+<node pkg="turtlesim" type="turtle_teleop_key" name="key_board">
+</node>
+
+<!--Dynamixel control node-->
+<node pkg="pantilt" type="pantilt_node" name="pantilt" output="screen">
+</node>
+   
+
+
+
+
+
+</launch>
